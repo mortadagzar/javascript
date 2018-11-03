@@ -3,7 +3,7 @@
 }
 
 
-greet('badr,'noor');
+greet('badr','noor');
 
 
 function recoreds(name,age){
