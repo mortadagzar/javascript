@@ -3,4 +3,4 @@
 }
 
 
-greet('alex','noor');
+greet('badr,'noor');
