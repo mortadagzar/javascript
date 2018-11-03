@@ -1,3 +1,6 @@
-let firstName=['red','blue','noor'];
-firstName[3]='green';
-console.log(firstName);
+ function greet(name,lastName) {
+    console.log('heloo world'+" "+ name+" "+ lastName)
+}
+
+
+greet('alex','noor');
