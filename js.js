@@ -1,12 +1,7 @@
-console.log("Hello world!");
-
-var color="blue";
-function printColor(){
-
-var color="purple";
-console.log(color);
-
-
+function theLocation(){
+    var city="san Fransico";
+    return{
+        get: function(){console.log(city);}
+        set: function(newCity){city=newCity;}
+    }
 }
-printColor();
-console.log(color);
