@@ -1,4 +1,7 @@
-function Sum(...args){
- return args.reduce((a,b) => a + b);
+const person={
+    firstName:"mortada",
+    lastName:"Ali",
+   
+};
 
-console.log(Sum(1,2,7,6));
+console.log (person.firstName +" " + person.lastName);
