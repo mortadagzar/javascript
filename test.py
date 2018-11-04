@@ -1,5 +1,3 @@
 print ('hello')
-'''
-yguhuji
-'''
-print('koss maty')
+
+print(5)
