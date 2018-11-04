@@ -1,13 +1,4 @@
+function Sum(...args){
+ return args.reduce((a,b) => a + b);
 
-walk();
-
-function walk (){
-console.log("walk is fire");
-}
-
-
-const run=function(){
-    console.log("run is fire");
-}
-
-run();
+console.log(Sum(1,2,7,6));
