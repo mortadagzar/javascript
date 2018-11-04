@@ -10,6 +10,10 @@ const person={
         this.lastName=parts[1];
     }
    
+
+
+
+    
 };
 person.fullName='john parker';
 console.log (person.fullName);
