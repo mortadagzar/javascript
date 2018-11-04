@@ -1,10 +1,11 @@
-class Rectangle {
-    constructor(_width,_height,_color){
-        console.log('the rectangle is being created');
-        this.width=_width;
-        this.height=_height;
-        this.color=_color;
+class Circle {
+    constructor(dimeter1,dimeter2,dimeter3){
+       
+        this.dimeter1=56;
+        this.dimeter2=33;
+        this.dimeter3=99;
+        console.log("my name is Fahad" + dimeter1 +" "+ dimeter2+" "+ dimeter3);
     }
 }
-let myRectangle= new Rectangle(3,4,'red');
-let myRectangle1= new Rectangle(3,42,'gray');
+
+let myCircle=new Circle();
