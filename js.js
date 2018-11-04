@@ -1,12 +1,7 @@
- function greet(name,lastName) {
-    console.log('heloo world'+" "+ name+" "+ lastName)
+let person={
+fName:"john",
+age:45,
+lastName:"corna"
+
 }
-
-
-greet('badr','noor');
-
-
-function recoreds(name,age){
-    console.log("the name is "+" "+ name +" ,"+ "the age is"+" " + age )
-}
-recoreds('ban',45);
+console.log("first name is " + person.fName);
