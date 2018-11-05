@@ -1,4 +1,13 @@
 
-for i in range(1,7):
-    print('{:<3}|'.format("your name is "),end="    ")
-    for
+class flight:
+    def __init__(self, duration, destination):
+        self.duration=duration
+        self.destination=destination
+ 
+def main():
+    f=flight(duration=456,destination="paris")
+
+
+
+    print(f.duration)
+main()
