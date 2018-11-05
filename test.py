@@ -1,8 +1,9 @@
 
-
-if 5 < 8 : 
-    if 7 < 8 :
-        if 67 >= 6 :
-            print("67 > 6 ")
-        else:
-            print ('hummm')
+for i in range(1,7):
+    print('{:<3}|'.format("your name is "),end="    ")
+    for i in range(1,30):
+        print('{:<3}|'.format("LOL"),end="    ")
+for i in range(1,7):
+    print('{:<2}|'.format("your name is "),end="    ")
+    for i in range(1,30):
+        print('{:<2}|'.format("OLO"),end="    ")        
