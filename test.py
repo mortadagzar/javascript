@@ -6,8 +6,11 @@ class flight:
  
 def main():
     f=flight(duration=456,destination="paris")
-
-
-
+  
+def print_out(self):
     print(f.duration)
+    print(f.destination)
+
+
 main()
+print_out()
