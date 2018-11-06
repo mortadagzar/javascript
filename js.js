@@ -1,6 +1,2 @@
-function Car(make, model, year) {
-  this.make = make;
-  this.model = model;
-  this.year = year;
-}
-
+var marks = {physics: 98, maths:95, chemistry: 91};
+Object.seal(marks);
