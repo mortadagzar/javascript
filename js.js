@@ -10,10 +10,6 @@ hello glob dirity
 
 
 
-
-
-
-
 marks=list();
 
 
