@@ -1,7 +1,10 @@
-def noor():
-    for i in range(1,10): 
-        
+def floor(a): 
+    return a
 
+def floor2(b):
+    c=floor(100)
+    d=c+b
+    print(d)
 
-
-print(noor())  
+floor2(100)
+   
