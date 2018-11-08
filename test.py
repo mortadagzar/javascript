@@ -1,4 +1,7 @@
-for i in range(1,11):
-    if i==5:
-        print("i =5 !")
-    print({i})
+def noor():
+    for i in range(1,10): 
+        
+
+
+
+print(noor())  
