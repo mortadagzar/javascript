@@ -1,3 +1,7 @@
-naum=(4,6,8,8,9,7)
-for i in naum:
-    print(i)
+
+def main(x):
+        print(x)
+for i in range (1,5):
+    f=main(6*i)
+    
+
