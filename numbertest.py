@@ -1,11 +1,3 @@
-def FirstFactorial(num): 
-    num = num-4
-    # code goes here 
-    return num
-
-
-
-
-
-# keep this function call here  
-print (FirstFactorial(input()) ) 
+naum=(4,6,8,8,9,7)
+for i in naum:
+    print(i)
