@@ -1,9 +1,10 @@
-empt={'hydair':
-{
-    'phone number':'786533560','addres':'baghdd/jadid nasha','ocumption':'engineer'
-}
-
-,'booo':'nar'
-}
-nod=empt.copy()
-print('the dialoge is:',nod, 'so you van conicder every thing you want')
+bar='they are not my master aaaaaaaaa'
+dicdic=dict()
+for i in bar:
+    if i not in dicdic:
+        dicdic[i]=1
+        elif:
+            dicdic[i]+=1  
+    else:
+        print('not founded')    
+print(dicdic['a'])        
