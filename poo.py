@@ -1,7 +1,9 @@
-import tkinter as tk
-window=tk.Tk()
-window.mainloop()
+empt={'hydair':
+{
+    'phone number':'786533560','addres':'baghdd/jadid nasha','ocumption':'engineer'
+}
 
-
-window.title("My App")
-window.geometry(4800*400)
+,'booo':'nar'
+}
+nod=empt.copy()
+print('the dialoge is:',nod, 'so you van conicder every thing you want')
